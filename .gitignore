@@ -1,0 +1,26 @@
+bin/
+obj/
+
+.vscode/
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# packages/
+# *.nupkg
+# *.paket/paket-files/
+
+# .paket/paket.exe
+# paket-files/
+
+# Carpeta de caché de ReSharper
+_ReSharper*/
+
+# Carpeta de caché de Rider
+.idea/
+
+# Carpetas de caché de Visual Studio
+.vs/
