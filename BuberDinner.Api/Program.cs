@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
     // Dependency Injection container for the application and infrastructure
     builder.Services
         .AddApplication()
-        .AddInfrastructure();
+        .AddInfrastructure(builder.Configuration);
 
     // Register the controllers
     builder.Services.AddControllers();
