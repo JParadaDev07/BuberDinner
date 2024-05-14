@@ -60,6 +60,21 @@ POST {{host}}/auth/login
 }
 ```
 
+#### Login response
+```js
+200 OK
+```
+
+```json
+{
+    "id" : "d89c2d9a-eb3e-4075-95ff-b920b55aa104",
+    "firstName" : "Julian",
+    "lastName" : "Parada",
+    "email" : "examplemail@mail.com",
+    "token" : "eyjhb...sddQ"
+
+}
+```
 
 
 
